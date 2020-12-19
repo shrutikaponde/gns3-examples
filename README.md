@@ -4,10 +4,13 @@
 2. [Install GNS3 on Local machine (Linux)](gns3-docs/install_local_server.md)
 3. [Create GNS3 Topology](gns3-docs/create_gns3_topology.md)
 4. [Create GNS3 Cisco Topology](gns3-docs/create_cisco_topology.md)
-5. [Connect local machine to GNS3](gns3-docs/connect_lm_to_gns3.md)
+5. [Connect local machine to GNS3(Telnet)](gns3-docs/connect_lm_to_gns3_telnet.md)
+6. [Connect local machine to GNS3(SSH)](gns3-docs/connect_lm_to_gns3_ssh.md)
+
 # Nornir
 
-Work in progress
+1. [Install Nornir and other plugins](nornir-docs/install.md)
+2. [Access GNS3 devices using Nornir](nornir-docs/nornir_with_gns3.md)
 
 # Useful References
 

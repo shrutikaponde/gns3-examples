@@ -1,10 +1,11 @@
-## Connect local machine to GNS
+## Connect local machine to GNS3
 
 1. Create GNS3 Topology
     Add Cloud and Cisco Router to GNS3 and configure them.
     
 
     1. Configure Cloud
+
         Run `ifconfig` check available interfaces. Configure the cloud with an interface `virbr0`.
 
         ![IF_CONFIG](https://github.com/shrutikaponde/gns3-examples/blob/main/imgs/ifconfig.png)
@@ -14,6 +15,7 @@
         ![CISCO_TOPOLOGY](https://github.com/shrutikaponde/gns3-examples/blob/main/imgs/cloud_cisco.png)
 
     2. Configure router
+
         Open router console and type following commands
         ```
         R1>en
@@ -32,20 +34,20 @@
         R1#wr
         ```
 
-2. Check ip assigned to the router for interface fa0/0.
+2. Check ip assigned to the router for interface fa0/0
     ```
     R1#show ip int br    
     Interface                  IP-Address      OK? Method Status                Protocol
-    FastEthernet0/0            192.168.122.200 YES DHCP   up                    up   
+    FastEthernet0/0            192.168.122.146 YES DHCP   up                    up   
     Serial0/0                  unassigned      YES unset  administratively down down  
     ```
 
-3. Check if you ping the router from th local machine `ping 192.168.122.200`
-4. Connect to router with `telnet`.
+3. Check if you ping the router from th local machine `ping 192.168.122.146`
+4. Connect to router with `telnet`
     ```
-    shrutika@shrutika:~$ telnet 192.168.122.200
-    Trying 192.168.122.200...
-    Connected to 192.168.122.200.
+    shrutika@shrutika:~$ telnet 192.168.122.146
+    Trying 192.168.122.146...
+    Connected to 192.168.122.146.
     Escape character is '^]'.
 
 

@@ -1,0 +1,17 @@
+---
+r1:
+    hostname: 192.168.122.146
+    username: 
+    password: cisco
+    platform: ios
+    data:
+        site: home
+        role: cisco
+        type: router
+    connection_options:
+        napalm:
+            extras:
+                optional_args: {'transport': 'telnet'}
+        netmiko:
+          extras:
+              device_type: 'cisco_ios_telnet'
