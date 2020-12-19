@@ -7,11 +7,11 @@
     1. Configure Cloud
         Run `ifconfig` check available interfaces. Configure the cloud with an interface `virbr0`.
 
-        ![IF_CONFIG](imgs/ifconfig.png)
+        ![IF_CONFIG](https://github.com/shrutikaponde/gns3-examples/blob/main/imgs/ifconfig.png)
 
         Add link from `virbr0` to `fa0/0`.
 
-        ![CISCO_TOPOLOGY](imgs/cloud_cisico.png)
+        ![CISCO_TOPOLOGY](https://github.com/shrutikaponde/gns3-examples/blob/main/imgs/cloud_cisco.png)
 
     2. Configure router
         Open router console and type following commands

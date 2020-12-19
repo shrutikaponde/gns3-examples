@@ -3,7 +3,7 @@
 1. [Install GNS3 on Remote server (Azure, AWS)](gns3-docs/install_remote_server.md)
 2. [Install GNS3 on Local machine (Linux)](gns3-docs/install_local_server.md)
 3. [Create GNS3 Topology](gns3-docs/create_gns3_topology.md)
-4. [Cretae GNS3 Cisco Topology](gns3-docs/create_cisco_topology.md)
+4. [Create GNS3 Cisco Topology](gns3-docs/create_cisco_topology.md)
 5. [Connect local machine to GNS3](gns3-docs/connect_lm_to_gns3.md)
 # Nornir
 
