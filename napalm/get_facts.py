@@ -9,7 +9,7 @@ from pprint import pprint
 
 driver = get_network_driver('ios')
 conn_method = {'transport': 'telnet', 'secret': 'cisco'}
-host = '192.168.122.146'  # your ip address
+host = '192.168.122.200'  # your ip address
 user = ''
 passwd = 'cisco'
 
