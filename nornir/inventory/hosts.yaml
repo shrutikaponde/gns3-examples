@@ -11,7 +11,7 @@ r1:
     connection_options:
         napalm:
             extras:
-                optional_args: {'transport': 'telnet'}
+                optional_args: {'transport': 'telnet', secret: 'cisco'}
         netmiko:
           extras:
               device_type: 'cisco_ios_telnet'
