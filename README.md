@@ -7,15 +7,40 @@
 5. [Connect local machine to GNS3(Telnet)](gns3-docs/connect_lm_to_gns3_telnet.md)
 6. [Connect local machine to GNS3(SSH)](gns3-docs/connect_lm_to_gns3_ssh.md)
 
-# Nornir With Napalm
+# Nornir 
 
-1. [Install Nornir and other plugins](nornir-docs/install.md)
+## Install 
+
+1. Install nornir into virtual environment.
+
+    ```
+    python -m venv .nornir-venv
+    source .nornir-venv/bin/activate
+    pip install nornir nornir_utils
+    ```
+
+## Nornir With Napalm
+
+1. Install nornir_napalm plugin
+    ```
+    pip install nornir_napalm
+    ```
+
 2. Access GNS3 devices using Nornir and Napalm
-    1. [napalm_cli](nornir/napalm_cli.ipynb) - Call napalm's cli method
-    2. napalm_configure - Call napalm's configure method. It also allows committing/discarding configurations. (In progress)
-    3. [napalm_get](nornir/napalm_get.ipynb) - Call napalm's get_* methods
-    4. [napalm_ping](nornir/napalm_ping.ipynb) - Call napalm's ping method`
-    5. [napalm_validate](nornir/napalm_validate.ipynb) - Call napalm's validate method
+    * [napalm_cli](nornir/napalm_cli.ipynb) - Call napalm's cli method
+    * napalm_configure - Call napalm's configure method. It also allows committing/discarding configurations. (In progress)
+    * [napalm_get](nornir/napalm_get.ipynb) - Call napalm's get_* methods
+    * [napalm_ping](nornir/napalm_ping.ipynb) - Call napalm's ping method`
+    * [napalm_validate](nornir/napalm_validate.ipynb) - Call napalm's validate method
+
+
+## Nornir With Napalm
+
+1. Install nornir_netmiko plugin
+    ```
+    pip install nornir_netmiko
+    ```
+2. Access GNS3 devices using Nornir and Netmiko (Coming Soon)
 
 
 # Useful References
