@@ -22,3 +22,5 @@
 * https://imtiazrahman.com/2016/11/17/how-to-login-cisco-router-with-ssh-key/ (####)
 * https://gns3.com/community/featured/error-while-setting-up-node-virb
 * https://developer.cisco.com/codeexchange/github/repo/shahkh-eng/Project-Code-Nornir/
+* https://codingnetworks.blog/napalm-network-automation-python-working-with-cisco-ios-and-ios-xr/
+* https://dteslya.engineer/network_automaiton_101/
