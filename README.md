@@ -22,6 +22,7 @@
 ## Nornir With Napalm
 
 1. Install `nornir_napalm` plugin
+
     ```
     pip install nornir_napalm
     ```
