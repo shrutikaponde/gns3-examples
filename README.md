@@ -38,9 +38,11 @@
 ## Nornir With Napalm
 
 1. Install `nornir_netmiko` plugin
+
     ```
     pip install nornir_netmiko
     ```
+    
 2. Access GNS3 devices using Nornir and Netmiko (Coming Soon)
 
 
