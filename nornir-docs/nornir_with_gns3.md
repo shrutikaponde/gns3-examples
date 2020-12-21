@@ -4,4 +4,5 @@ To access GNS3 devices on local machine first check [how to connect local machin
 
 ### Connect to Cisco router using Nornir and Netmiko
 
-Check [nornir/run_commands.py]
+Check python script: [nornir/run_commands.py](nornir/run_commands.py)
+Check output: [nornir/run_commands_output.txt](nornir/run_commands_output.txt)
