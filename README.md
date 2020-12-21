@@ -7,10 +7,16 @@
 5. [Connect local machine to GNS3(Telnet)](gns3-docs/connect_lm_to_gns3_telnet.md)
 6. [Connect local machine to GNS3(SSH)](gns3-docs/connect_lm_to_gns3_ssh.md)
 
-# Nornir
+# Nornir With Napalm
 
 1. [Install Nornir and other plugins](nornir-docs/install.md)
-2. [Access GNS3 devices using Nornir](nornir-docs/nornir_with_gns3.md)
+2. Access GNS3 devices using Nornir and Napalm
+    1. [napalm_cli](nornir/napalm_cli.ipynb) - Call napalm's cli method
+    2. napalm_configure - Call napalm's configure method. It also allows committing/discarding configurations. (In progress)
+    3. [napalm_get](nornir/napalm_get.ipynb) - Call napalm's get_* methods
+    4. [napalm_ping](nornir/napalm_ping.ipynb) - Call napalm's ping method`
+    5. [napalm_validate](nornir/napalm_validate.ipynb) - Call napalm's validate method
+
 
 # Useful References
 
