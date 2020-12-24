@@ -24,7 +24,7 @@
 1. Install `nornir_napalm` plugin
 
     ```
-    pip install nornir_napalm
+    pip install nornir_napalm nornir_jinja2
     ```
 
 2. Access GNS3 devices using Nornir and Napalm
