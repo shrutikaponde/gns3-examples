@@ -12,7 +12,7 @@ import pprint
 
 
 nr = InitNornir(config_file="config.yaml")
-result = nr.run(task=napalm_ping, dest='192.168.122.146')
+result = nr.run(task=napalm_ping, dest='192.168.122.67')
 print_result(result["r1"])
 
 # TODO: Add source and destination example in topology 

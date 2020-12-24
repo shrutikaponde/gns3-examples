@@ -17,18 +17,31 @@ result = nr.run(
     getters=["facts", "config", "interfaces", "bgp_neighbors"]
     )
 
+# print_result(result)
+print('==========================================')
+print('===================FACTS==================')
+print('==========================================')
 # ### Get Facts:
 pprint.pprint(result['r1'][0].result['facts'])
 
-
+input()
+print('==========================================')
+print('==================CONFIG==================')
+print('==========================================')
 # ### Get Config:
 pprint.pprint(result['r1'][0].result['config'])
 
-
+input()
+print('==========================================')
+print('===============INTERFACES=================')
+print('==========================================')
 # ### Get Interfaces:
 pprint.pprint(result['r1'][0].result['interfaces'])
 
-
+input()
+print('==========================================')
+print('===============BGP_NEI====================')
+print('==========================================')
 # ### Get BGP neighbors:
 pprint.pprint(result['r1'][0].result['bgp_neighbors'])
 

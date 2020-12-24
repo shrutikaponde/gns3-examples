@@ -5,6 +5,6 @@
 - get_interfaces_ip:
     FastEthernet0/0:
         ipv4:
-            192.168.122.146:
+            192.168.122.67:
                 prefix_length: 16
             _mode: strict

@@ -1,6 +1,6 @@
 ---
 r1:
-    hostname: 192.168.122.146
+    hostname: 192.168.122.67
     # port: 5042
     username: cisco
     password: cisco
