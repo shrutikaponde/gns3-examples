@@ -1,0 +1,10 @@
+---
+- get_facts:
+    os_version: 4.17
+
+- get_interfaces_ip:
+    FastEthernet0/0:
+        ipv4:
+            192.168.122.146:
+                prefix_length: 16
+            _mode: strict
