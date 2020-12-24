@@ -1,0 +1,20 @@
+---
+r1:
+    # configure ssh on the router
+    hostname: 192.168.122.146
+    username: cisco
+    password: cisco
+    platform: ios
+    groups:
+        - routers
+    data:
+        site: home
+        role: cisco
+        type: router
+    connection_options:
+        napalm:
+            extras:
+                optional_args: 
+                    transport: ssh
+                    global_delay_factor: 8
+                    dest_file_system: 'flash' # required for napalm_configure

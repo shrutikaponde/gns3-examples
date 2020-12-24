@@ -1,0 +1,2 @@
+routers:
+    nornir_nos: iosxr

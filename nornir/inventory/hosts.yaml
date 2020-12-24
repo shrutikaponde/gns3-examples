@@ -1,9 +1,12 @@
 ---
 r1:
     hostname: 192.168.122.146
+    # port: 5042
     username: 
     password: cisco
     platform: ios
+    groups:
+        - r1_grp
     data:
         site: home
         role: cisco
@@ -11,7 +14,12 @@ r1:
     connection_options:
         napalm:
             extras:
-                optional_args: {transport: 'telnet', secret: 'cisco'}
+                optional_args: {
+                    transport: 'telnet', 
+                    # global_delay_factor: 2,
+                    secret: 'cisco',
+                    dest_file_system: 'ios' # required for napalm_configure
+                    }
         netmiko:
           extras:
               device_type: 'cisco_ios_telnet'
