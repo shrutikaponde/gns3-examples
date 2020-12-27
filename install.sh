@@ -1,4 +1,3 @@
-git clone https://github.com/shrutikaponde/gns3-examples.git
 cd gns3-examples/
 git checkout ubuntu-gns3-topology
 sudo apt update
